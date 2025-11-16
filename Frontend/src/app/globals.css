@@ -1,19 +1,24 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Geist";
 }
 
 .app-layout {
   display: flex;
   flex-direction: row;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 
 .app-content {
   flex: 1;
-  /* padding: 20px; */
-  background: #fafafa;
+  background: #000000;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

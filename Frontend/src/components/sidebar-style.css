@@ -1,16 +1,14 @@
-/* Main sidebar background & layout */
 .sidebar {
   width: 270px;
   height: 100vh;
-  background-color: #111;      /* Dark Gray */
-  color: #e5e5e5;              /* Light Gray */
+  background-color: #111;
+  color: #e5e5e5;
   padding: 18px;
   box-sizing: border-box;
   overflow-y: auto;
-  border-right: 1px solid #2a2a2a; /* Medium Gray */
+  border-right: 1px solid #2a2a2a;
 }
 
-/* Section layout */
 .sidebar-section {
   margin-bottom: 25px;
 }
@@ -18,42 +16,42 @@
 
 .section-title {
   font-size: 20px;
-  margin: 10px;
-  color: #a0a0a0;     /* Soft Light Gray */
-  letter-spacing: 1px;
+  color: #a0a0a0;
+  letter-spacing: -1px;
   margin-bottom: 20px;
 }
 
-/* Subtitle (Past pipeline heading) */
 .section-subtitle {
   font-size: 12px;
   text-transform: uppercase;
-  color: #8a8a8a;     /* Medium Gray */
+  color: #8a8a8a;
   margin: 14px 0 8px 2px;
 }
 
 .sidebar-item {
   padding: 10px 14px;
   border-radius: 8px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
   cursor: pointer;
-  margin-bottom: 5px;
   transition: background 0.2s ease-in-out;
   font-size: 15px;
-  color: #dcdcdc;     /* Light Gray */
+  color: #dcdcdc;
+  text-decoration: none;
 }
 
-/* Hover = smooth brighter gray */
 .sidebar-item:hover {
-  background-color: #1d1d1d;  /* Slightly lighter gray */
+  background-color: #1d1d1d;
 }
 
-/* New Pipeline button (gray theme) */
 .new-item {
-  background-color: #1a1a1a;   /* Dark Gray */
-  border: 1px solid #303030;   /* Medium Gray */
+  background-color: #1a1a1a;
+  border: 1px solid #303030;
   font-weight: 600;
 }
 
 .new-item:hover {
-  background-color: #262626;   /* Lighter Gray Hover */
+  background-color: #262626;
 }
